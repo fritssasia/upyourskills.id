@@ -5,7 +5,7 @@ body {
 
 .header-top {
     background-color: #1D2D5F;
-    height: 600px;
+    height: 550px;
 }
 
 .bg-learn-header {
@@ -22,7 +22,7 @@ body {
     height: 160px;
     width: 900px;
     left: 100px;
-    box-shadow: 0px 4px 20px rgba(29, 45, 95, 0.15);
+    box-shadow: 0px 4px 20px rgba(29, 45, 95, 0.25);
     border: none;
     border-radius: 15px;
 }
