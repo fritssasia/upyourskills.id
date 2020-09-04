@@ -28,7 +28,7 @@ body {
     color: white;
     position: absolute;
     padding-top: 200px;
-    padding-left: 35px;
+    padding-left: 45px;
 }
 
 .header-top-text-wrapper h2 {
@@ -60,6 +60,16 @@ body {
 
 .info-panel-content-wrapper {
     margin-top: 20px;
+}
+
+.info-panel img {
+    height: 45px;
+    margin-right: 55px;
+    margin-left: 65px;
+}
+
+.info-panel p {
+    color: #1D2D5F;
 }
 
 /* Next page */
