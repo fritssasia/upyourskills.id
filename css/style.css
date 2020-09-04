@@ -3,6 +3,16 @@ body {
     overflow-x: hidden;
 }
 
+/* Navbar */
+.navbar-brand {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-link {
+    margin-right: 55px;
+}
+
 .header-top {
     background-color: #1D2D5F;
     height: 545px;
