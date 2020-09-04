@@ -1,3 +1,17 @@
 body {
     font-family: 'Poppins';
+    overflow-x: hidden;
+}
+
+.header-top {
+    background-color: #1D2D5F;
+    height: 600px;
+}
+
+.bg-learn-header {
+    width: 50%;
+    height: 400px;
+    object-fit: cover;
+    margin-top: 150px;
+    margin-left: 200px;
 }
