@@ -15,3 +15,23 @@ body {
     margin-top: 150px;
     margin-left: 200px;
 }
+
+/* Info panel */
+.info-panel-card {
+    margin-top: -80px;
+    height: 160px;
+    width: 900px;
+    left: 100px;
+    box-shadow: 0px 4px 20px rgba(29, 45, 95, 0.15);
+    border: none;
+    border-radius: 15px;
+}
+
+.info-panel-content-wrapper {
+    margin-top: 20px;
+}
+
+/* Next page */
+.next-page {
+    height: 500px;
+}
