@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins';
     overflow-x: hidden;
+    background-color: #E5E5E5; 
 }
 
 /* Navbar */
@@ -13,9 +14,29 @@ body {
     margin-right: 55px;
 }
 
+/* header-top */
 .header-top {
     background-color: #1D2D5F;
     height: 545px;
+}
+
+.bg-box-header {
+    position: absolute;
+}
+
+.header-top-text-wrapper {
+    color: white;
+    position: absolute;
+    padding-top: 200px;
+    padding-left: 35px;
+}
+
+.header-top-text-wrapper h2 {
+    font-weight: 800;
+}
+
+.header-top-text-wrapper p {
+    padding-top: 15px;
 }
 
 .bg-learn-header {
@@ -44,4 +65,5 @@ body {
 /* Next page */
 .next-page {
     height: 500px;
+    background-color: #E5E5E5;
 }
