@@ -5,14 +5,14 @@ body {
 
 .header-top {
     background-color: #1D2D5F;
-    height: 550px;
+    height: 545px;
 }
 
 .bg-learn-header {
     width: 50%;
     height: 400px;
     object-fit: cover;
-    margin-top: 150px;
+    margin-top: 125px;
     margin-left: 200px;
 }
 
