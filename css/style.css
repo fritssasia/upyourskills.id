@@ -1,7 +1,7 @@
 body {
     font-family: 'Poppins';
     overflow-x: hidden;
-    background-color: #E5E5E5; 
+    background-color: #E5E5E5;
 }
 
 /* Navbar */
@@ -72,8 +72,46 @@ body {
     color: #1D2D5F;
 }
 
-/* Next page */
-.next-page {
+/* Description */
+.description {
     height: 500px;
     background-color: #E5E5E5;
+}
+
+.description-content-wrapper {
+    margin-top: 115px;
+}
+
+.bg-women-learn-description {
+    width: 375.94px;
+}
+
+.description-text-wrapper {
+    padding-top: 15px;
+}
+
+.description-content-wrapper h4 {
+    color: #001947;
+    font-weight: bold;
+}
+
+.description-text-wrapper {
+    padding-top: 25px;
+}
+
+.description-icon {
+    width: 35px;
+}
+
+.btn-explore-class {
+    background-color: #F65E5D;
+    color: white !important;
+    height: 45px;
+    width: 185px;
+    border-radius: 7px;
+    padding-top: 10px;
+}
+
+.btn-explore-class:hover {
+    background-color: #f35858;
 }
