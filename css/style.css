@@ -10,6 +10,14 @@ body {
     font-weight: bold;
 }
 
+.nav-bar {
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-bar-active {
+    background-color: #1D2D5F;
+}
+
 .nav-link {
     margin-right: 55px;
 }
@@ -79,7 +87,7 @@ body {
     background-color: #E5E5E5;
 }
 
-.description-content-wrapper {
+.description-content-1-wrapper {
     margin-top: 115px;
 }
 
@@ -91,7 +99,7 @@ body {
     padding-top: 15px;
 }
 
-.description-content-wrapper h4 {
+.heading-description {
     color: #001947;
     font-weight: bold;
 }
@@ -111,7 +119,7 @@ body {
 }
 
 .btn-explore-class {
-    margin-top: 13px;  
+    margin-top: 13px;
 }
 
 .btn-explore-class {
