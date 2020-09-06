@@ -83,11 +83,10 @@ body {
 
 /* Description */
 .description {
-    height: 500px;
     background-color: #E5E5E5;
 }
 
-.description-content-1-wrapper {
+.description-content-wrapper {
     margin-top: 115px;
 }
 
@@ -134,4 +133,33 @@ body {
 
 .btn-explore-class:hover {
     background-color: #f35858;
+}
+
+.btn-learning-flow {
+    background-color: #F65E5D;
+    color: white !important;
+    font-weight: bold;
+    height: 45px;
+    width: 170px;
+    border-radius: 7px;
+    padding-top: 10px;
+}
+
+.btn-learning-flow:hover {
+    background-color: #f35858;
+}
+
+.btn-looking-for-needs {
+    border: 2px solid #F65E5D;
+    color: #F65E5D;
+    font-weight: bold;
+    height: 45px;
+    width: 220px;
+    border-radius: 7px;
+    padding-top: 10px;
+}
+
+.btn-looking-for-needs:hover {
+    background-color: #F65E5D;
+    color: white;
 }
