@@ -69,6 +69,7 @@ body {
 }
 
 .info-panel p {
+    padding-top: 10px;
     color: #1D2D5F;
 }
 
@@ -96,16 +97,27 @@ body {
 }
 
 .description-text-wrapper {
-    padding-top: 25px;
+    padding-top: 55px;
 }
 
 .description-icon {
-    width: 35px;
+    width: 40px;
+}
+
+.description-text-wrapper p {
+    color: #001947;
+    padding-left: 65px;
+    padding-bottom: 15px;
+}
+
+.btn-explore-class {
+    margin-top: 13px;  
 }
 
 .btn-explore-class {
     background-color: #F65E5D;
     color: white !important;
+    font-weight: bold;
     height: 45px;
     width: 185px;
     border-radius: 7px;
