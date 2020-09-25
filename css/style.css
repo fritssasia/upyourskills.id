@@ -22,6 +22,28 @@ body {
     margin-right: 55px;
 }
 
+.btn-user {
+    background-color: #F65E5D;
+    color: white !important;
+    font-weight: bold;
+    height: 45px;
+    width: 140px;
+    border-radius: 7px;
+}
+
+.user-btn-wrapper {
+    padding-top: 4px;
+}
+
+.user-img {
+    width: 25px;
+}
+
+.user-name {
+    margin-top: 1000px !important;
+    padding-left: 10px;
+}
+
 /* header-top */
 .header-top {
     background-color: #1D2D5F;
