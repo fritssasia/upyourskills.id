@@ -200,8 +200,9 @@ body {
 
 
 /* List Class */
-.list-class {
-    height: 1000px !important;
+.list-class-card {
+    height: 460px;
+    width: 330px;
 }
 
 .list-class-card-img {
@@ -214,9 +215,4 @@ body {
     background-color: #F65E5D;
     border-bottom-left-radius: 10px !important;
     border-bottom-right-radius: 10px !important;
-}
-
-.list-class-card {
-    height: 460px;
-    width: 330px;
 }
