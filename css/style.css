@@ -200,7 +200,23 @@ body {
 
 
 /* List Class */
+.list-class {
+    height: 1000px !important;
+}
+
+.list-class-card-img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
 .list-class-card-footer {
     height: 60px;
     background-color: #F65E5D;
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+
+.list-class-card {
+    height: 460px;
+    width: 330px;
 }
