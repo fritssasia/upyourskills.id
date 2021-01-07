@@ -4,6 +4,18 @@ body {
     background-color: #E5E5E5;
 }
 
+.icon-size-16 {
+    width: 25px;
+}
+
+.color-1 {
+    color: #001947;
+}
+
+.card {
+    border-radius: 10px;
+}
+
 .page-heading {
     color: #001947;
     font-weight: bold;
@@ -184,4 +196,11 @@ body {
 .btn-looking-for-needs:hover {
     background-color: #F65E5D;
     color: white;
+}
+
+
+/* List Class */
+.list-class-card-footer {
+    height: 60px;
+    background-color: #F65E5D;
 }
