@@ -203,6 +203,7 @@ body {
 .list-class-card {
     height: 460px;
     width: 330px;
+    box-shadow: 0px 0px 20px rgba(48, 60, 112, 0.15);
 }
 
 .list-class-card-img {
