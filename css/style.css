@@ -219,3 +219,30 @@ body {
 }
 
 /* Benefit */
+
+/* float-left */
+.hexagon-icon {
+    width: 47px;
+}
+
+.consultation-icon {
+    width: 46px;
+}
+
+.certificate-icon {
+    width: 38px;
+}
+
+
+/* float-right */
+.plot-icon {
+    width: 45px;
+}
+
+.project-icon {
+    width: 45px;
+}
+
+.download-icon {
+    width: 50px;
+}
