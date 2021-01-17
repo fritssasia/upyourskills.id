@@ -219,7 +219,21 @@ body {
 }
 
 /* Benefit */
+.benefit-container {
+    margin-left: 83px;
+    margin-right: 83px;
+}
 
+.col-benefit-first {
+    padding-top: 180px;
+}
+
+.col-benefit-end {
+    padding-top: 115px;
+}
+
+
+/* ================== */
 /* float-left */
 .hexagon-icon {
     width: 47px;
@@ -233,7 +247,6 @@ body {
     width: 38px;
 }
 
-
 /* float-right */
 .plot-icon {
     width: 45px;
@@ -245,4 +258,9 @@ body {
 
 .download-icon {
     width: 50px;
+}
+/* ================== */
+
+.man-with-laptop-img {
+    width: 160px;
 }
