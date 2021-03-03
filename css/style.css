@@ -264,3 +264,17 @@ body {
 .man-with-laptop-img {
     width: 160px;
 }
+
+.benefit {
+    height: 1000px;
+}
+
+.btn-join-with-us {
+    width: 275px;
+    height: 50px;
+    margin-top: 35px;
+    padding-top: 13px;
+    background-color: #F65E5D;
+    color: white !important;
+    border-radius: 10px;
+}
