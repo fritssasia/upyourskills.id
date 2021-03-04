@@ -318,3 +318,26 @@ body {
     background-color: #F65E5D;
     color: white;
 }
+
+/* Testimonial */
+
+.testimonial-card {
+    margin: auto;
+    width: 800px;
+    background: #F0F4FF;
+    border: 1px solid rgba(48, 60, 112, 0.25);
+    border-radius: 10px;
+}
+
+.testimonial-user-img {
+    height: 115px;
+}
+
+.testimonial-user-detail {
+    padding-top: 25px;
+    margin-left: 135px !important;
+}
+
+.testimonial-user-name {
+    line-height: 0px;
+}
