@@ -259,6 +259,7 @@ body {
 .download-icon {
     width: 50px;
 }
+
 /* ================== */
 
 .man-with-laptop-img {
@@ -277,4 +278,43 @@ body {
     background-color: #F65E5D;
     color: white !important;
     border-radius: 10px;
+}
+
+/* FAQ (Frequently Asked Question */
+.faq-img {
+    height: 355px;
+    margin-top: 100px;
+}
+
+.faq-dropdown-button {
+    height: 25px;
+}
+
+.faq-dropdown-button-rotate {
+    transform: rotate(-45deg);
+}
+
+.btn-more-questions {
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
+    padding-top: 13px;
+    background-color: #F65E5D;
+    color: white !important;
+    border-radius: 10px;
+}
+
+.btn-ask-questions {
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
+    padding-top: 13px;
+    border: 2px solid #F65E5D;
+    color: #F65E5D;
+    border-radius: 10px;
+}
+
+.btn-ask-questions:hover {
+    background-color: #F65E5D;
+    color: white;
 }
