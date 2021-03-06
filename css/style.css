@@ -352,3 +352,18 @@ body {
     width: 170px;
     border-radius: 10px;
 }
+
+/* Join */
+.join {
+    background-color: #303C70;
+}
+
+.join-btn {
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
+    padding-top: 13px;
+    background-color: #F65E5D;
+    color: white;
+    border-radius: 10px;
+}
