@@ -341,3 +341,14 @@ body {
 .testimonial-user-name {
     line-height: 0px;
 }
+
+.testimonial-quotes {
+    line-height: 65px;
+}
+
+.testimonial-quotes-investation {
+    display: inline-block;
+    background-color: #F65E5D !important;
+    width: 170px;
+    border-radius: 10px;
+}
