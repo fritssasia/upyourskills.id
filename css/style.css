@@ -349,6 +349,10 @@ body {
     border-radius: 10px;
 }
 
+.splide__arrow, .splide__pagination__page {
+    display: none;
+}
+
 /* Join */
 .join {
     background-color: #303C70;
