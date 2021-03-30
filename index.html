@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
         integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 
+    <!-- Splide CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+
     <!-- ============== Style CSS ============== -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -437,123 +440,114 @@
         </div>
 
         <!-- Testimonial -->
-        <div class="faq" id="faq">
-            <div class="container">
+        <div class="testimonial" id="testimonial">
+            <div class="container-fluid">
                 <div class="faq-content-wrapper">
                     <h4 class="page-heading text-center">Apa Kata Para Alumni Peserta tentang upyourskills?</h4>
                     <p class="color-1 text-center pt-3">Setelah mereka, kini giliranmu untuk membuktikannya</p>
 
-                    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
 
-                        <div class="carousel-inner">
+                    <div class="splide" id="splide">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+        
+                                <li class="splide__slide">
+                                    <div class="card testimonial-card d-flex justify-content-center">
+                                        <div class="card-body">
+                                            <p class="color-1">Gak tau lagi mau bilang apa, pokoknya recomended
+                                                banget dah program pelatihan dari upyourskills ini. Pilihan kelasnya
+                                                bisa menyesuaikan dengan kesibukan kita, manakala kita juga butuh
+                                                ilmu dan skill terbaru yang menunjang pekerjaan kita tanpa takut
+                                                terganggu sama pekerjaan. Pilihan offline dan online pun bisa
+                                                dipilih, materi yang lengkap dan mentor yang asik penyampaiannya.
+                                            </p>
 
-                            <div class="carousel-item" data-interval="2000">
-                                <div class="card testimonial-card">
-                                    <div class="card-body">
-                                        <p class="color-1">Jujur dari pengalaman saya sendiri. Setelah saya
-                                            mengenal UPYOURSKILLS ini dan ikut program belajarnya, saya ngerasa
-                                            buang-buang duit ikut program pelatihan di tempat lain selama ini.
-                                            Setelah belajar di UPYOURSKILLS saya terarah banget belajarnya. Blum
-                                            lagi pilihan kelas offline dan online nya yang banyak banget dan
-                                            bisa menyesuaikan kegiatan kita. Hebat banget, ada ya rupanya
-                                            program kayak gini.</p>
+                                            <div class="testimonial-user">
+                                                <div class="testimonial-user-avatar">
+                                                    <img src="/images/testimonial-img/testimonial-1.png" alt=""
+                                                        class="img-fluid rounded-circle float-left testimonial-user-img">
+                                                </div>
 
-                                        <div class="testimonial-user">
-
-                                            <div class="testimonial-user-avatar">
-                                                <img src="/images/testimonial-img/testimonial-2.png" alt=""
-                                                    class="img-fluid rounded-circle float-left testimonial-user-img">
-                                            </div>
-
-                                            <div class="testimonial-user-detail">
-                                                <p class="font-weight-bold testimonial-user-name color-1">John Doe
-                                                </p>
-                                                <p class="color-1 testimonial-user-address">Bandung</p>
-                                                <p class="color-1 testimonial-user-class">Alumni Mata Kelas MERN
-                                                    Stack
-                                                    Developer</p>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item active" data-interval="10000">
-                                <div class="card testimonial-card d-flex justify-content-center">
-                                    <div class="card-body">
-                                        <p class="color-1">Gak tau lagi mau bilang apa, pokoknya recomended
-                                            banget dah program pelatihan dari upyourskills ini. Pilihan kelasnya
-                                            bisa menyesuaikan dengan kesibukan kita, manakala kita juga butuh
-                                            ilmu dan skill terbaru yang menunjang pekerjaan kita tanpa takut
-                                            terganggu sama pekerjaan. Pilihan offline dan online pun bisa
-                                            dipilih, materi yang lengkap dan mentor yang asik penyampaiannya.
-                                        </p>
-
-                                        <div class="testimonial-user">
-                                            <div class="testimonial-user-avatar">
-                                                <img src="/images/testimonial-img/testimonial-1.png" alt=""
-                                                    class="img-fluid rounded-circle float-left testimonial-user-img">
-                                            </div>
-
-                                            <div class="testimonial-user-detail">
-                                                <p class="font-weight-bold testimonial-user-name color-1">Muhammad
-                                                    Afrizal
-                                                    Syafa’atul Amry</p>
-                                                <p class="color-1 testimonial-user-address">Pekanbaru</p>
-                                                <p class="color-1 testimonial-user-class">Alumni Mata Kelas UI/UX
-                                                    Designer
-                                                </p>
+                                                <div class="testimonial-user-detail">
+                                                    <p class="font-weight-bold testimonial-user-name color-1">Muhammad
+                                                        Afrizal
+                                                        Syafa’atul Amry</p>
+                                                    <p class="color-1 testimonial-user-address">Pekanbaru</p>
+                                                    <p class="color-1 testimonial-user-class">Alumni Mata Kelas UI/UX
+                                                        Designer
+                                                    </p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
+                                </li>
 
-                            <div class="carousel-item">
-                                <div class="card testimonial-card">
-                                    <div class="card-body">
-                                        <p class="color-1">Kelas yang sangat bermanfaat dan ilmu up-to-date
-                                            sekali dan yang paling penting biayanya sangat terjangkau. Harganya
-                                            terjangkau, secara overall materi sudah cukup detail dan sangat
-                                            mudah untuk dipahami terutama bagi pemula. Materi-materi disini juga
-                                            up to date. Jadi kalau ada materi yang sudah usang, digantiin dengan
-                                            materi yang terbaru. Keren sih ini mah</p>
+                                <li class="splide__slide">
+                                    <div class="card testimonial-card">
+                                        <div class="card-body">
+                                            <p class="color-1">Jujur dari pengalaman saya sendiri. Setelah saya
+                                                mengenal UPYOURSKILLS ini dan ikut program belajarnya, saya ngerasa
+                                                buang-buang duit ikut program pelatihan di tempat lain selama ini.
+                                                Setelah belajar di UPYOURSKILLS saya terarah banget belajarnya. Blum
+                                                lagi pilihan kelas offline dan online nya yang banyak banget dan
+                                                bisa menyesuaikan kegiatan kita. Hebat banget, ada ya rupanya
+                                                program kayak gini.</p>
 
-                                        <div class="testimonial-user">
+                                            <div class="testimonial-user">
 
-                                            <div class="testimonial-user-avatar">
-                                                <img src="/images/testimonial-img/testimonial-2.png" alt=""
-                                                    class="img-fluid rounded-circle float-left testimonial-user-img">
+                                                <div class="testimonial-user-avatar">
+                                                    <img src="/images/testimonial-img/testimonial-2.png" alt=""
+                                                        class="img-fluid rounded-circle float-left testimonial-user-img">
+                                                </div>
+
+                                                <div class="testimonial-user-detail">
+                                                    <p class="font-weight-bold testimonial-user-name color-1">John Doe
+                                                    </p>
+                                                    <p class="color-1 testimonial-user-address">Bandung</p>
+                                                    <p class="color-1 testimonial-user-class">Alumni Mata Kelas MERN
+                                                        Stack
+                                                        Developer</p>
+                                                </div>
+
                                             </div>
-
-                                            <div class="testimonial-user-detail">
-                                                <p class="font-weight-bold testimonial-user-name color-1">Anisari
-                                                    Zega
-                                                </p>
-                                                <p class="color-1 testimonial-user-address">Bandung</p>
-                                                <p class="color-1 testimonial-user-class">Alumni Mata Kelas MERN
-                                                    Stack
-                                                    Developer</p>
-                                            </div>
-
                                         </div>
                                     </div>
-                                </div>
-                            </div>
+                                </li>
 
+                                <li class="splide__slide">
+                                    <div class="card testimonial-card">
+                                        <div class="card-body">
+                                            <p class="color-1">Kelas yang sangat bermanfaat dan ilmu up-to-date
+                                                sekali dan yang paling penting biayanya sangat terjangkau. Harganya
+                                                terjangkau, secara overall materi sudah cukup detail dan sangat
+                                                mudah untuk dipahami terutama bagi pemula. Materi-materi disini juga
+                                                up to date. Jadi kalau ada materi yang sudah usang, digantiin dengan
+                                                materi yang terbaru. Keren sih ini mah</p>
+
+                                            <div class="testimonial-user">
+
+                                                <div class="testimonial-user-avatar">
+                                                    <img src="/images/testimonial-img/testimonial-2.png" alt=""
+                                                        class="img-fluid rounded-circle float-left testimonial-user-img">
+                                                </div>
+
+                                                <div class="testimonial-user-detail">
+                                                    <p class="font-weight-bold testimonial-user-name color-1">Anisari
+                                                        Zega
+                                                    </p>
+                                                    <p class="color-1 testimonial-user-address">Bandung</p>
+                                                    <p class="color-1 testimonial-user-class">Alumni Mata Kelas MERN
+                                                        Stack
+                                                        Developer</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul>
                         </div>
-
-                        <a class="carousel-control-prev" href="#carouselExampleInterval" role="button"
-                            data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleInterval" role="button"
-                            data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
                     </div>
 
                     <div class="row pt-5">
@@ -667,7 +661,18 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
             integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
         </script>
+        <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
         <script src="js/script.js"></script>
+
+        <script>
+            new Splide('#splide', {
+                type: 'loop',
+                padding: {
+                    right: '15rem',
+                    left: '15rem',
+                },
+            }).mount();
+        </script>
 </body>
 
 </html>
